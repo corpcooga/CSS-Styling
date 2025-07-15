@@ -16,6 +16,8 @@
 h2.styled {
 	font-size: 2em;
 	text-align: center;
+	transform: skew(15deg) rotate(3deg); /* skew and rotate effect for a unique look */
+	padding-top: 40px;
 }
 
 /* styled image borders and centered */
@@ -58,9 +60,10 @@ ol.styled li {
 	transition: width 0.5s, background-color 0.5s, border-color 0.5s;
 }
 
+/* effect on hover */
 #special:hover {
 	transition-timing-function: ease;
-	width: 400px;
+	width: 70%;
 	background-color: #c383ff;
 	border-color: #5d1b9b;
 }
