@@ -55,4 +55,12 @@ ol.styled li {
 	font-style: italic;
 	color: #fff200;
 	font-size: 1.2em;
+	transition: width 0.5s, background-color 0.5s, border-color 0.5s;
+}
+
+#special:hover {
+	transition-timing-function: ease;
+	width: 400px;
+	background-color: #c383ff;
+	border-color: #5d1b9b;
 }
